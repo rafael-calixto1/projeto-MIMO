@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: paleturquoise;
+}
+
+.div-principal {
+    margin: 0 auto;
+    background-color: white;
+    max-width: 900px;
+    padding: 0 50px;
+    box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+header>img {
+    max-width: 15%;
+    height: auto;
+}
+
+header>span {
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 2px solid black;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.secao-bemvindo {
+    margin-bottom: 40px;
+}
+
+.secao-bemvindo>h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.secao-bemvindo>hr {
+    margin-bottom: 20px;
+}
+
+.secao-opcoes {
+    margin-bottom: 50px;
+}
+
+.tamanho-medio {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.btn-novo-item {
+    width: 150px;
+    border: none;
+    padding: 15px;
+}
+
+.btn-novo-item>i {
+    margin-right: 5px;
+}
+
+.btn-novo-item:hover {
+    background-color: black;
+    color: turquoise;
+}
+
+.secao-tabela {
+    background-color: #f7f5f5;
+    padding: 20px 20px;
+    height: 450px;
+    overflow-y: auto;
+    margin-bottom: 40px;
+}
+
+.linha-hover:hover {
+    background-color: #e3e1e1;
+}
+
+.td-icone>form>button:hover {
+    background-color: black;
+    color: paleturquoise;
+    box-shadow: 0px 3px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.footer-estilo {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.footer-estilo>span {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.footer-estilo>span>i {
+    padding-right: 10px;
+}
+
+.lista-devs {
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-devs>li {
+    margin-bottom: 8px;
+    margin-left: 30px;
+    padding-right: 15px;
+    font-size: 15px;
+}
+
+@media (max-width: 800px) {
+    .div-principal {
+        padding: 0 25px;
+    }
+}
+
+@media (max-width: 700px) {
+    .card-imagem {
+        width: 100%;
+    }
+
+    .nao-mobile {
+        display: none;
+    }
+
+    .secao-tabela {
+        padding: 10px 10px;
+    }
+}

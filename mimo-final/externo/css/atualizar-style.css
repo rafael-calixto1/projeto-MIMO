@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: paleturquoise;
+}
+
+.div-principal {
+    margin: 0 auto;
+    background-color: white;
+    max-width: 900px;
+    padding: 0 50px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 31px -3px rgba(0, 0, 0, 0.1);
+}
+
+.div-principal>hr {
+    margin-bottom: 40px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+header>img {
+    max-width: 15%;
+    height: auto;
+}
+
+header>span {
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 2px solid black;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.secao-bemvindo {
+    margin-bottom: 40px;
+}
+
+.secao-bemvindo>h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.secao-bemvindo>hr {
+    margin-bottom: 20px;
+}
+
+.tamanho-medio {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.btn-voltar,
+.btn-enviar {
+    max-width: 150px;
+    min-width: 40px;
+    padding: 15px;
+}
+
+.btn-voltar>i,
+.btn-enviar>i {
+    margin-right: 5px;
+}
+
+.btn-voltar:hover {
+    background-color: red;
+    color: white;
+}
+
+.btn-enviar:hover {
+    background-color: green;
+    color: white;
+}
+
+.card-imagem {
+    margin-bottom: 20px;
+}
+
+.card-imagem>img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    max-width: 600px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    .card-imagem {
+        width: 50%;
+    }
+
+    .card-imagem>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media (max-width: 700px) {
+    .div-principal {
+        padding: 0 30px;
+        padding-bottom: 20px;
+    }
+
+    .card-imagem {
+        width: 100%;
+    }
+
+    .card-imagem>img {
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:320px) {
+
+    .btn-voltar,
+    .btn-enviar {
+        font-size: 11px;
+    }
+}
