@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+.modal {
+    animation: opc .5s ease-in-out;
+}
+
+@keyframes opc {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
